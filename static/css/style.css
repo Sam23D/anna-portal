@@ -1,8 +1,12 @@
 window{
   overflow-y: hidden;
 }
+::-webkit-scrollbar {
+    display: none;
+}
+/* CLASSEs */
 .left-menu{
-  border-right: 1px #ccc solid;
+
   height: 100%;
 }
 
@@ -17,24 +21,56 @@ window{
 }
 .points-badge{
   border-radius: 20px 20px 20px 20px;
-  background-color: #eee;
+  border: 3px solid #a5d6a7;
+  margin-top: 5px;
+  font-weight: bold;
   padding: .2em 1em;
+  color: #4caf50 ;
+
+}
+.user-points p {
+  margin-top: 5px ;
+  margin-bottom: 5px ;
+  font-weight: bold;
 
 }
 .awards{
   border-top: #eee solid 1px;
 
 }
+.project-helper p{
+  margin: 15px 0px 5px 0px;
+  font-weight: bold;
+  color: #999;
+  font-size: 12px;
+}
+/* IDs */
 #main-wrapper{
   overflow-y: hidden;
   margin: 0px;
 }
-#projects-wraper{
+#awards-wrapper{
+  text-align: center;
+}
+#projects-wrapper{
   height: 100%;
 }
-#projects-wraper:hover{
+#projects-wrapper:hover{
   overflow-y: scroll;
 }
-::-webkit-scrollbar {
-    display: none;
+#newsfeed-wrapper{
+  height: 50%;
+}
+#newsfeed-wrapper h5{
+  text-align: center;
+}
+#friends-wrapper{
+  height: 50%;
+  border-top: #eee solid 1px;
+}
+#friends-wrapper h5{
+  text-align: center;
+}
+#right-menu{
+  height: 100%
 }

@@ -20,9 +20,11 @@
 
 
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Notifications<span class="new badge">4</span></a></li>
+          <li><a href="#"><i class="material-icons left">view_module</i>Projects</a></li>
+          <li><a href="#"><i class="material-icons left">person_pin</i>Profile</a></li>
+          <li><a href="#"><i class="material-icons left">textsms</i>Notifications<span class="new badge">4</span></a></li>
+          <li><a href="#"><i class="material-icons left">more_vert</i>Options</a></li>
+
         </ul>
 
       </div>
@@ -60,14 +62,20 @@
           </div>
 
         </div>
-        <div class="awards">
-          <h5>Awards</h5>
+
+        <div id="awards-wrapper" class="awards">
+          <h5>Anna awards</h5>
         </div>
       </div>
-      <div  class="col l6" id="projects-wraper">
+      <!-- projects -->
+      <div  class="col l6" id="projects-wrapper">
         <div class="row">
-          <div class="col l12">
 
+          <div class="col l12 project-helper">
+            <p>FEATURED</p>
+          </div>
+
+          <div class="col l12">
             <div class="card small">
                 <div class="card-image">
                   <img src="http://lorempixel.com/400/100/nature">
@@ -80,7 +88,9 @@
 
             </div>
           </div>
-
+          <div class="col l12 project-helper">
+            <p>RECENT</p>
+          </div>
           <div class="col l6">
 
             <div class="card ">
@@ -133,23 +143,28 @@
         </div>
 
       </div>
-      <div class="col l3">
-        <div class="card-panel">
-          <h5><i class="material-icons blue-text">settings_input_antenna</i> Newsfeed</h5>
-          <div class="divider"></div>
-          <blockquote>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </blockquote>
-          <blockquote>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </blockquote>
-          <blockquote>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </blockquote>
+
+      <div id="right-menu" class="col l3">
+
+        <div id="newsfeed-wrapper" class="">
+          <h5>Newsfeed</h5>
+          <div id="newsfeed" class="">
+
+            <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </blockquote>
+            <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </blockquote>
+            <blockquote>
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </blockquote>
+          </div>
         </div>
-        <div class="card-panel">
-          <h5><i class="material-icons small blue-text prefix">supervisor_account</i>Friends</h5>
-          <br><br><br><br><br><br><br><br>
+
+        <div id="friends-wrapper" class="">
+          <h5>Friends</h5>
+
         </div>
       </div>
 
