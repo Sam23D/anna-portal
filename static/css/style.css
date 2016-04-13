@@ -1,0 +1,25 @@
+
+.left-menu{
+  border-right: 1px #ccc solid;
+
+}
+
+.user-profile{
+  margin-top: 1em;
+  background-color: white;
+}
+
+.user-points{
+  text-align: center;
+  border-top: #eee solid 1px;
+}
+.points-badge{
+  border-radius: 20px 20px 20px 20px;
+  background-color: #eee;
+  padding: .2em 1em;
+
+}
+.awards{
+  border-top: #eee solid 1px;
+  
+}
