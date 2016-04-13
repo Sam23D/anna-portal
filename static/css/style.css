@@ -5,6 +5,11 @@ window{
     display: none;
 }
 /* CLASSEs */
+.nav-logo{
+  height: 60px;
+  width: 60px;
+  margin: 2px 10px
+}
 .left-menu{
 
   height: 100%;
@@ -52,25 +57,43 @@ window{
 #awards-wrapper{
   text-align: center;
 }
+                              /* projects */
 #projects-wrapper{
   height: 100%;
 }
 #projects-wrapper:hover{
   overflow-y: scroll;
 }
+
+                              /* right menu */
+#right-menu{
+  height: 100%
+}
+                              /* news feed */
 #newsfeed-wrapper{
   height: 50%;
+  overflow-y: scroll;
 }
 #newsfeed-wrapper h5{
   text-align: center;
 }
+#newsfeed-wrapper blockquote{
+  border-left: solid 4px #90caf9;
+}
+#newsfeed-wrapper blockquote h6{
+  font-weight: bold;
+}
+#newsfeed-wrapper blockquote p{
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+                              /* friends */
 #friends-wrapper{
   height: 50%;
   border-top: #eee solid 1px;
 }
 #friends-wrapper h5{
   text-align: center;
-}
-#right-menu{
-  height: 100%
 }
