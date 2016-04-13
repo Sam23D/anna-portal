@@ -1,7 +1,9 @@
-
+window{
+  overflow-y: hidden;
+}
 .left-menu{
   border-right: 1px #ccc solid;
-
+  height: 100%;
 }
 
 .user-profile{
@@ -21,5 +23,18 @@
 }
 .awards{
   border-top: #eee solid 1px;
-  
+
+}
+#main-wrapper{
+  overflow-y: hidden;
+  margin: 0px;
+}
+#projects-wraper{
+  height: 100%;
+}
+#projects-wraper:hover{
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
 }
