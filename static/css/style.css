@@ -85,9 +85,9 @@ window{
 }
 #newsfeed-wrapper blockquote p{
   margin: 0;
-  position: absolute;
-  top: 0px;
-  right: 0px;
+  font-size: 12px;
+  text-align: right;
+  color: #ccc
 }
                               /* friends */
 #friends-wrapper{
