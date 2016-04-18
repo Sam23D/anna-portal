@@ -4,6 +4,9 @@ window{
 ::-webkit-scrollbar {
     display: none;
 }
+span.badge.new{
+  background-color: #90caf9
+}
 /* CLASSEs */
 .nav-logo{
   height: 60px;
@@ -49,6 +52,37 @@ window{
   color: #999;
   font-size: 12px;
 }
+.friend-card{
+  margin-bottom: 7.5px;
+}
+.friend-card .name{
+  font-weight: bold;
+}
+.friend-card .last-conected{
+  margin: 0;
+  font-size: 12px;
+  color: #ccc
+}
+.friend-card .name{
+  font-weight: bold;
+}
+.friend-card .activity{
+  font-size: 12px;
+}
+.friend-card .profile-picture{
+  border-radius: 50%;
+}
+.achievement{
+  font-weight: bold;
+  color: #4caf50;
+}
+.wrapper-title{
+  height: 5%;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
 /* IDs */
 #main-wrapper{
   overflow-y: hidden;
@@ -60,8 +94,6 @@ window{
                               /* projects */
 #projects-wrapper{
   height: 100%;
-}
-#projects-wrapper:hover{
   overflow-y: scroll;
 }
 
@@ -71,7 +103,7 @@ window{
 }
                               /* news feed */
 #newsfeed-wrapper{
-  height: 50%;
+  height: 45%;
   overflow-y: scroll;
 }
 #newsfeed-wrapper h5{
@@ -91,9 +123,15 @@ window{
 }
                               /* friends */
 #friends-wrapper{
-  height: 50%;
-  border-top: #eee solid 1px;
+  height: 45%;
+  overflow: scroll;
 }
 #friends-wrapper h5{
   text-align: center;
+}
+#friends-wrapper .card-content{
+  padding: 10px 20px;
+}
+#friends-wrapper .card-content .row{
+  margin: 0;
 }
