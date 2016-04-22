@@ -112,6 +112,20 @@ span.badge.new{
   outline:none;
 
 }
+
+.notification-card{
+
+}
+.notification-card h5{
+  border-bottom: 1px solid #ccc;
+}
+.notification-card img{
+  margin-top: 16px;
+  border-radius: 50%;
+}
+.notification-card.read-more{
+  color: #90caf9;
+}
 /* IDs */
 #main-wrapper{
   overflow-y: hidden;
