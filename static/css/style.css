@@ -43,8 +43,13 @@ span.badge.new{
 
 }
 .awards{
-  border-top: #eee solid 1px;
 
+
+}
+.award{
+  height: 120px;
+  border: solid 1px #aaa;
+  padding: 5px;
 }
 .project-helper p{
   margin: 15px 0px 5px 0px;
@@ -77,19 +82,51 @@ span.badge.new{
   color: #4caf50;
 }
 .wrapper-title{
+  color: #666;
   height: 5%;
   margin: 0;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
+  position: relative;
+}
+.modal.bottom-sheet{
+  width: 50%;
+  margin: auto;
+  height: 90%;
+  margin: auto;
+}
+.filter-select{
+  display: inline;
+  position: absolute;;
+  right: 30px;
+  top: 20px;
+  height: 16px;
+  width: 20px;
+  font-size: 16px;
+  padding: 0px;
+
+  background:transparent;
+  color:#888;
+  border:none;
+  outline:none;
+
 }
 /* IDs */
 #main-wrapper{
   overflow-y: hidden;
   margin: 0px;
 }
+#user-points{
+  height: 15%
+}
+#user-profile{
+  height: 20%
+}
 #awards-wrapper{
   text-align: center;
+  overflow-y: scroll;
+  height: 55%;
 }
                               /* projects */
 #projects-wrapper{

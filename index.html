@@ -21,12 +21,12 @@
 
 
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#"><i class="material-icons left">view_module</i>Projects</a></li>
-          <li><a href="#"><i class="material-icons left">person_pin</i>Profile</a></li>
-          <li><a href="#"><i class="material-icons left">textsms</i>Notifications<span class="new badge">4</span></a></li>
+          <li><a id="btn-projects" href="#"><i class="material-icons left">view_module</i>Projects</a></li>
+          <li><a id="btn-profile" href="#"><i class="material-icons left">person_pin</i>Profile</a></li>
+          <li><a id="btn-notifications" href="#" class=""><i class="material-icons left">textsms</i>Notifications<span class="new badge">4</span></a></li>
           <li><a href="#"><i class="material-icons left">more_vert</i>Options</a></li>
-
         </ul>
+
 
       </div>
     </nav>
@@ -38,7 +38,7 @@
 
 
 
-        <div class="row user-profile">
+        <div id="user-profile" class="row user-profile">
           <div class="col s6">
             <img src="http://placehold.it/110x110">
           </div>
@@ -49,7 +49,7 @@
         </div>
 
 
-        <div class=" user-points">
+        <div id="user-points" class=" user-points">
           <div class="row">
             <div class="col l6">
               <p>Credits:</p>
@@ -63,105 +63,62 @@
           </div>
 
         </div>
-
+        <h5 class="wrapper-title">Anna awards</h5>
         <div id="awards-wrapper" class="awards">
-          <h5>Anna awards</h5>
+
           <div class="row">
             <div class="col l6">
-              Award 1
+              <a class=" tooltipped" data-position="top" data-delay="50" data-tooltip="Educator (5/10)">
+                <img class="award" src="http://placehold.it/110x110" alt="" >
+              </a>
             </div>
             <div class="col l6">
-              Award 1
+              <a class=" tooltipped" data-position="top" data-delay="50" data-tooltip="Mother Nature (2/3)">
+                <img class="award" src="http://placehold.it/110x110" alt="" >
+              </a>
             </div>
             <div class="col l6">
-              Award 1
+              <a class=" tooltipped" data-position="top" data-delay="50" data-tooltip="I am tooltip">
+                <img class="award" src="http://placehold.it/110x110" alt="" >
+              </a>
             </div>
             <div class="col l6">
-              Award 1
+              <a class=" tooltipped" data-position="top" data-delay="50" data-tooltip="I am tooltip">
+                <img class="award" src="http://placehold.it/110x110" alt="" >
+              </a>
+            </div>
+            <div class="col l6">
+              <a class=" tooltipped" data-position="top" data-delay="50" data-tooltip="I am tooltip">
+                <img class="award" src="http://placehold.it/110x110" alt="" >
+              </a>
+            </div>
+            <div class="col l6">
+              <a class=" tooltipped" data-position="top" data-delay="50" data-tooltip="I am tooltip">
+                <img class="award" src="http://placehold.it/110x110" alt="" >
+              </a>
             </div>
           </div>
         </div>
       </div>
       <!-- projects -->
       <div  class="col l6" id="projects-wrapper">
-        <div class="row">
-
-          <div class="col l12 project-helper">
-            <p>FEATURED</p>
-          </div>
-
-          <div class="col l12">
-            <div class="card small">
-                <div class="card-image">
-                  <img src="http://lorempixel.com/400/100/nature">
-                </div>
-                <div class="card-content">
-                  <h5>Project1</h5>
-                  <p>I am a very simple card. I am good at containing small bits of information.
-                  I am convenient because I require little markup to use effectively.</p>
-                </div>
-
-            </div>
-          </div>
-          <div class="col l12 project-helper">
-            <p>RECENT</p>
-          </div>
-          <div class="col l6">
-
-            <div class="card ">
-                <div class="card-image">
-                  <img src="http://lorempixel.com/400/100/nightlife">
-                </div>
-                <div class="card-content">
-                  <h5>Project2</h5>
-                  <p>I am a very simple card. I am good at containing small bits of information</p>
-                </div>
-            </div>
-          </div>
-          <div class="col l6">
-
-            <div class="card ">
-                <div class="card-image">
-                  <img src="http://lorempixel.com/400/100/people">
-                </div>
-                <div class="card-content">
-                  <h5>Project3</h5>
-                  <p>I am a very simple card. I am good at containing small bits of information</p>
-                </div>
-            </div>
-          </div>
-          <div class="col l6">
-
-            <div class="card ">
-                <div class="card-image">
-                  <img src="http://lorempixel.com/400/100/cats">
-                </div>
-                <div class="card-content">
-                  <h5>Project4</h5>
-                  <p>I am a very simple card. I am good at containing small bits of information</p>
-                </div>
-            </div>
-          </div>
-          <div class="col l6">
-
-            <div class="card ">
-                <div class="card-image">
-                  <img src="http://lorempixel.com/400/100/food">
-                </div>
-                <div class="card-content">
-                  <h5>Project5</h5>
-                  <p>I am a very simple card. I am good at containing small bits of information</p>
-                </div>
-            </div>
-          </div>
+        <div id="main-content" class="row">
 
         </div>
-
       </div>
 
       <div id="right-menu" class="col l3">
+        <div class="wrapper-title">
+          <h5 class="">Newsfeed</h5>
+          <select class="browser-default filter-select">
+            <option>Education</option>
+            <option>Cathastrophe</option>
+            <option>Alimentation</option>
+          </select>
+        </div>
 
-        <h5 class="wrapper-title">Newsfeed</h5>
+
+
         <div id="newsfeed-wrapper" class="">
           <div id="newsfeed" class="">
 
@@ -248,13 +205,102 @@
     </div>
 
 
+
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
     <!-- renderer helper -->
     <script type="text/javascript" src="static/js/renderer-helper.js">
+    </script>
+    <script src="static/js/test.js" type="text/javascript">
 
     </script>
+    <script>
+        //tooltips
+        $(document).ready(function(){
+          $('.tooltipped').tooltip({delay: 50});
+        });
+        //modals
+        $(document).ready(function(){
+           // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+           $('.modal-trigger').leanModal();
+         });
+    </script>
+
+    <!-- projects -->
+    <div id="test-projects" hidden="">
+
+      <div class="col l12 project-helper">
+        <p>FEATURED</p>
+      </div>
+
+      <div class="col l12">
+        <div class="card small">
+            <div class="card-image">
+              <img src="http://lorempixel.com/400/100/nature">
+            </div>
+            <div class="card-content">
+              <h5>Project1</h5>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+
+        </div>
+      </div>
+      <div class="col l12 project-helper">
+        <p>RECENT</p>
+      </div>
+      <div class="col l6">
+
+        <div class="card ">
+            <div class="card-image">
+              <img src="http://lorempixel.com/400/100/nightlife">
+            </div>
+            <div class="card-content">
+              <h5>Project2</h5>
+              <p>I am a very simple card. I am good at containing small bits of information</p>
+            </div>
+        </div>
+      </div>
+      <div class="col l6">
+
+        <div class="card ">
+            <div class="card-image">
+              <img src="http://lorempixel.com/400/100/people">
+            </div>
+            <div class="card-content">
+              <h5>Project3</h5>
+              <p>I am a very simple card. I am good at containing small bits of information</p>
+            </div>
+        </div>
+      </div>
+      <div class="col l6">
+
+        <div class="card ">
+            <div class="card-image">
+              <img src="http://lorempixel.com/400/100/cats">
+            </div>
+            <div class="card-content">
+              <h5>Project4</h5>
+              <p>I am a very simple card. I am good at containing small bits of information</p>
+            </div>
+        </div>
+      </div>
+      <div class="col l6">
+
+        <div class="card ">
+            <div class="card-image">
+              <img src="http://lorempixel.com/400/100/food">
+            </div>
+            <div class="card-content">
+              <h5>Project5</h5>
+              <p>I am a very simple card. I am good at containing small bits of information</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- projects -->
   </body>
+
 </html>
