@@ -16,9 +16,17 @@ var main = function(){
 //#########################################################################VIEWS
 //#########################################################################VIEWS
 var allContentViews = [
-  ,
+  singleProject,
   projectsContainer
 ]
+
+AllProjectsView = {
+  displayView: function(){
+    clearMainContainer();
+    projectsContainer.show();
+  }
+}
+
 
 //button event actions bindings
 projectsBtn.on("click",function(){
@@ -53,7 +61,6 @@ var SingleProjectController = {
    clearMainContainer();
    singleProject.show();
  }
-
 }
 
 //########################################################################MODELS

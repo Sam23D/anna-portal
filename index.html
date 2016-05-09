@@ -104,16 +104,33 @@
       <!-- main container -->
       <div  class="col l6" id="projects-wrapper">
         <div id="main-content" class="row">
-
+            <!-- profile -->
+            <div id="profile-container" class="row">
+              <div class="card row">
+                <div class="card-content">
+                  <div class="col s12 l4">
+                    <img  src="http://placehold.it/180x180" alt="" >
+                  </div>
+                  <div class="col s12 l8">
+                    <p>
+                      name
+                    </p>
+                    <p>
+                      country
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- project -->
-            <div id="project-container" class="row" >
+            <div id="project-container" class="row" hidden>
               <div class="" >
                 <!-- tabs -->
                 <div id="project" class="">
                   <div class="card-content">
                       <ul class="tabs">
-                        <li class="tab col s3"><a href="#test1">Project</a></li>
-                        <li class="tab col s3"><a class="active" href="#blog">Blog</a></li>
+                        <li class="tab col s3"><a class="active" href="#test1">Project</a></li>
+                        <li class="tab col s3"><a  href="#blog">Blog</a></li>
                       </ul>
                   </div>
                 </div>
@@ -159,8 +176,36 @@
 
                       </div>
                     </div>
-                    <div id="blog" class="col s12">
+                    <div id="blog-content" class="col s12">
 
+                      <div class="card">
+                        <div class="card-content">
+                          <span class="blog-date">9 May</span>
+                          <h5>First great step</h5>
+                          <p>
+                            We are making so much advances, with the initial found we managed to fly, Thanks a lot!!!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-content">
+                          <span class="blog-date">7 May</span>
+                          <h5>Getting the first found</h5>
+                          <p>
+                            as the 20% is done we got that part to start with the first part of the project thanks for the support
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-content">
+                          <span class="blog-date">5 May</span>
+                          <h5>Project lanched</h5>
+                          <p>
+                            Thanks for all the support, we jsut started with the campaign and we fell so happy that everyone is so enthusiastic asd afa dq
+                          </p>
+                        </div>
+                      </div>
 
                     </div>
                   </div>
@@ -171,24 +216,24 @@
           <!-- projects -->
           <div id="projects-container" hidden >
 
-            <div class="col l12 project-helper">
+            <div class="col l12 card-comment-helper">
               <p>FEATURED</p>
             </div>
 
             <div class="col l12">
               <div class="card small">
                   <div class="card-image">
-                    <img src="http://lorempixel.com/400/100/nature">
+                    <img src="http://materializecss.com/images/sample-1.jpg">
                   </div>
                   <div class="card-content">
-                    <a href="#" onclick=" SingleProjectController.renderProject() "><h5>Project1</h5></a>
+                    <a href="#" onclick=" SingleProjectController.renderProject() "><h5>After fire reconstruction</h5></a>
                     <p>I am a very simple card. I am good at containing small bits of information.
                     I am convenient because I require little markup to use effectively.</p>
                   </div>
 
               </div>
             </div>
-            <div class="col l12 project-helper">
+            <div class="col l12 card-comment-helper">
               <p>RECENT</p>
             </div>
             <div class="col l6">

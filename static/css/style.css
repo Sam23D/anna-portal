@@ -51,7 +51,7 @@ span.badge.new{
   border: solid 1px #aaa;
   padding: 5px;
 }
-.project-helper p{
+.card-comment-helper p{
   margin: 15px 0px 5px 0px;
   font-weight: bold;
   color: #999;
@@ -125,6 +125,12 @@ span.badge.new{
 }
 .notification-card.read-more{
   color: #90caf9;
+}
+.blog-date{
+  display: block;
+  color: #ccc;
+  font-size: 12px;
+  margin: 0px;
 }
 /* IDs */
 #main-wrapper{
