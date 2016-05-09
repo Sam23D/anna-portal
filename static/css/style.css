@@ -147,7 +147,18 @@ span.badge.new{
   height: 100%;
   overflow-y: scroll;
 }
-
+#project{
+  margin-top: 8px;
+}
+#single-project-description p{
+  font-size: 12px;
+  color: #333;
+}
+#single-project-description span{
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
                               /* right menu */
 #right-menu{
   height: 100%
