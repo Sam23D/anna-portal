@@ -1,12 +1,21 @@
-var mainContent = $("#main-content")
+var mainContent = $("#main-content");
 
-var projectsBtn = $("#btn-projects")
-var profileBtn = $("#btn-profile")
-var notificationssBtn = $("#btn-notifications")
+var projectsBtn = $("#btn-projects");
+var profileBtn = $("#btn-profile");
+var notificationssBtn = $("#btn-notifications");
 
-var testProjects = $("#test-projects")
+var testProjects = $("#test-projects");
+var projectsContainer = $("#projects-container");
+var singleProject = $("#project-container");
 
-projectsBtn.on("click", function(){
-  console.log(testProjects.html())
-  mainContent.html( testProjects )
-});
+//Views
+
+var clearMainContainer = function(){
+
+}
+
+//Controllers
+
+
+
+//Models
