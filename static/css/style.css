@@ -154,7 +154,7 @@ span.badge.new{
   font-size: 12px;
   color: #333;
 }
-#single-project-description span{
+#single-project-description span.details{
   font-size: 14px;
   color: black;
   font-weight: bold;
