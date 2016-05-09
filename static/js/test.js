@@ -6,7 +6,7 @@ var notificationsBtn = $("#btn-notifications");
 
 var projectsContainer = $("#projects-container");
 var singleProject = $("#project-container");
-
+var profileContainer = $("#profile-container")
 
 var main = function(){
   clearMainContainer();
@@ -17,7 +17,8 @@ var main = function(){
 //#########################################################################VIEWS
 var allContentViews = [
   singleProject,
-  projectsContainer
+  projectsContainer,
+  profileContainer
 ]
 
 AllProjectsView = {
@@ -37,7 +38,10 @@ notificationsBtn.on("click", function(){
   clearMainContainer();
 
 });
-
+profileBtn.on("click", function(){
+  clearMainContainer();
+  profileContainer.show();
+});
 
 
 var clearMainContainer = function(){ // sets all views in the container to hidden
