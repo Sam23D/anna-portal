@@ -100,31 +100,32 @@
           </div>
         </div>
       </div>
-      <!-- projects -->
+      <!-- main container -->
       <div  class="col l6" id="projects-wrapper">
         <div id="main-content" class="row">
 
-          <!-- projects -->
-          <div id="project-container" class="row">
-            <div class="" >
-              <!-- tabs -->
-              <div id="project" class="card">
-                <div class="card-content">
-                  <h5>project title</h5>
-                    <ul class="tabs">
-                      <li class="tab col s3"><a href="#test1">Project</a></li>
-                      <li class="tab col s3"><a class="active" href="#test2">Blog</a></li>
-                    </ul>
+            <!-- project -->
+            <div id="project-container" class="row" hidden>
+              <div class="" >
+                <!-- tabs -->
+                <div id="project" class="card">
+                  <div class="card-content">
+                    <h5>project title</h5>
+                      <ul class="tabs">
+                        <li class="tab col s3"><a href="#test1">Project</a></li>
+                        <li class="tab col s3"><a class="active" href="#test2">Blog</a></li>
+                      </ul>
+                  </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="card-content">
-                  <div id="test1" class="col s12">Project</div>
-                  <div id="test2" class="col s12">Blog</div>
+                <div class="card">
+                  <div class="card-content">
+                    <div id="test1" class="col s12">Project</div>
+                    <div id="test2" class="col s12">Blog</div>
+                  </div>
                 </div>
-              </div>
+            </div>
           </div>
-        </div>
+
           <!-- projects -->
           <div id="projects-container" hidden >
 
@@ -138,7 +139,7 @@
                     <img src="http://lorempixel.com/400/100/nature">
                   </div>
                   <div class="card-content">
-                    <h5>Project1</h5>
+                    <a href="#" onclick=" SingleProjectController.renderProject() "><h5>Project1</h5></a>
                     <p>I am a very simple card. I am good at containing small bits of information.
                     I am convenient because I require little markup to use effectively.</p>
                   </div>
