@@ -132,6 +132,12 @@ span.badge.new{
   font-size: 12px;
   margin: 0px;
 }
+.profile-data{
+  font-size: 20px;
+}
+.profile-edit{
+  text-align: left;
+}
 /* IDs */
 #main-wrapper{
   overflow-y: hidden;
