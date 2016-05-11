@@ -29,11 +29,11 @@ span.badge.new{
 }
 .points-badge{
   border-radius: 20px 20px 20px 20px;
-  border: 3px solid #a5d6a7;
+  border: 3px solid #90caf9;
   margin-top: 5px;
   font-weight: bold;
   padding: .2em 1em;
-  color: #4caf50 ;
+  color: #2196f3 ;
 
 }
 .user-points p {
@@ -79,7 +79,7 @@ span.badge.new{
 }
 .achievement{
   font-weight: bold;
-  color: #4caf50;
+  color: #2196f3;
 }
 .wrapper-title{
   color: #666;
