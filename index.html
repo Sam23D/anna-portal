@@ -16,7 +16,7 @@
 <!-- Nav bar -->
     <nav class="blue">
       <div class="nav-wrapper">
-        <img class="nav-logo" src="/static/img/logo_globe_white_big.png" alt="" />
+        <img class="nav-logo" src="/static/img/heart_in_box.png" alt="" />
         <a href="#" class="brand-logo">Anna Community</a>
 
 
@@ -193,9 +193,37 @@
                           </div>
                         </div>
                         <div class="card-action">
-                          <a href="#">Donate</a>
+                          <a class="modal-trigger" href="#modal1">Donate</a>
                         </div>
                       </div>
+                      <!-- Modal Structure -->
+                      <div id="modal1" class="modal donation-modal">
+                        <div class="modal-content">
+                          <div class="row">
+                            <div class="col s4">
+                              <p>
+                                <img class="" src="/static/img/badges/coins.png" alt="" />
+                              </p>
+                            </div>
+                              <div class="col s8">
+                                <p>
+                                  Donate to:
+                                </p>
+                                <h4>After Fire Reconstruction</h4>
+                                <form class="" action="" method="">
+                                  <input type="number" name="name" value="1000" step="100">
+                                </form>
+                                <br><br>
+                                <h5 class="blue-text">Thanks for your support!</h5>
+                              </div>
+                          </div>
+
+                        </div>
+                        <div class="modal-footer">
+                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Donate</a>
+                        </div>
+                      </div>
+                      <!-- Description Content -->
                       <div class="card">
                         <div class="card-content">
 
@@ -260,18 +288,24 @@
             </div>
 
             <div class="col l12">
-              <div class="card small">
+              <div class="card medium">
                   <div class="card-image">
                     <img src="http://materializecss.com/images/sample-1.jpg">
                   </div>
+
                   <div class="card-content">
                     <a href="#" onclick=" SingleProjectController.renderProject() "><h5>After fire reconstruction</h5></a>
+                    <div class="progress">
+                        <div class="determinate" style="width: 70%"></div>
+                    </div>
+                    <span class="project-details">Goal: 14000 / 20000</span>
                     <p>I am a very simple card. I am good at containing small bits of information.
                     I am convenient because I require little markup to use effectively.</p>
                   </div>
 
               </div>
             </div>
+
             <div class="col l12 card-comment-helper">
               <p>RECENT</p>
             </div>

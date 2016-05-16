@@ -138,6 +138,25 @@ span.badge.new{
 .profile-edit{
   text-align: left;
 }
+.project-details{
+  text-align: right;
+  color: #aaa;
+  font-size: 12px;
+}
+.donation-modal{
+  text-align: center;
+}
+.donation-modal input{
+  font-size: 20px;
+  text-align: center;
+}
+.donation-modal h5{
+  color: #2196f3;
+}
+.donation-modal img{
+  width: 180px;
+  margin-top: 50px;
+}
 /* IDs */
 #main-wrapper{
   overflow-y: hidden;
