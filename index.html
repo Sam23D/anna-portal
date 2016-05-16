@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>anna</title>
 
+    <link rel="icon"
+      type="image/png"
+      href="/favico.png" />
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -40,7 +43,7 @@
 
         <div id="user-profile" class="row user-profile">
           <div class="col s6">
-            <img src="http://placehold.it/110x110">
+            <img id="profile-picture" src="https://pbs.twimg.com/profile_images/1409899072/OfficialPeach.jpg">
           </div>
           <div class="col s6">
             <h5>Elisa Lukin</h5>
@@ -220,7 +223,7 @@
 
                         </div>
                         <div class="modal-footer">
-                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Donate</a>
+                          <a href="#!" onclick="Materialize.toast('Thanks for donating!', 4000)" class=" modal-action modal-close waves-effect waves-green btn-flat">Donate</a>
                         </div>
                       </div>
                       <!-- Description Content -->
