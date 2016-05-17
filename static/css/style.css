@@ -47,9 +47,12 @@ span.badge.new{
 
 }
 .award{
-  height: 120px;
-  border: solid 1px #aaa;
-  padding: 5px;
+  height: 100px;
+  border: solid 5px #fdd835 ;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #fff59d;
+  margin-top: 10px;
 }
 .card-comment-helper p{
   margin: 15px 0px 5px 0px;
@@ -137,6 +140,12 @@ span.badge.new{
 }
 .profile-edit{
   text-align: left;
+}
+.profile-picture{
+  width: 60px;
+  border-radius: 50% 50%;
+  padding: 2px;
+  border: 4px solid #bbdefb;
 }
 .project-details{
   text-align: right;
