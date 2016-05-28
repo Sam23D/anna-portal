@@ -17,7 +17,19 @@ span.badge.new{
 
   height: 100%;
 }
-
+.tag{
+  border-radius: 3px;
+  padding: 3px 10px;
+}
+.reconstruction{
+  background-color: #d1c4e9
+}
+.educational{
+  background-color: #c8e6c9
+}
+.food{
+  background-color: #ffcdd2
+}
 .user-profile{
   margin-top: 1em;
   background-color: white;

@@ -31,7 +31,7 @@ const menuAward = _.template(
   </div>`
 );
 
-//{imgUrl: , title: , progress: ,goalDetails: , description: , }
+//{imgUrl: , title: , progress: ,goalDetails: , author: , tag: }
 const feturedProject = _.template(
   `<div class="col l12">
     <div class="card medium">
@@ -45,9 +45,32 @@ const feturedProject = _.template(
               <div class="determinate" style="width: <%= progress %>%"></div>
           </div>
           <span class="project-details">Goal: <%= goalDetails %>/span>
-          <p><%= description %></p>
+          <p><%= author %></p>
+          <span class="tag reconstruction" ><%= tag %></span>
         </div>
 
     </div>
   </div>`
+);
+
+//{imgUrl: , title: , progress: ,goalDetails: , author: , tag : }
+const normalProject = _.template(
+  `
+  <div class="col l6">
+    <div class="card medium">
+        <div class="card-image">
+          <img src="<=% imgUrl =>">
+        </div>
+        <div class="card-content">
+          <h5><%= title =%></h5>
+          <div class="progress">
+              <div class="determinate" style="width: <%= progress %>%"></div>
+          </div>
+          <span class="project-details">Goal: <%= goalDetails %> - Tampere Finland</span>
+          <p><%= author %></p>
+          <span class="tag reconstruction" ><%= tag %></span>
+        </div>
+    </div>
+  </div>
+  `
 );
